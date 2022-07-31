@@ -1,0 +1,48 @@
+/********************* TAG SELECTORS*****************/
+h1{
+  color: red;
+  font-size: 50px;
+}
+
+img{
+  background-color: red;
+}
+
+/*
+This is for all img (all images) but if we want specific images, we give them a class name */
+
+/********************* CLASS SELECTORS*****************/
+.bacon{ background-color: red
+}
+
+.bacon:hover{
+  background-color: green;
+  transition: 1s;
+}
+
+
+/********************* ID SELECTORS*****************/
+
+
+
+
+
+/*
+Class and ID have more priority than the tag selectors. So you can use
+tag for general and for specfic ones and class / ID for specfic.
+
+Class can have multiple element with the same name hence all those elements under
+that class will have the same css style you put on it.
+
+ID is unique to the specific element you are putting it on. Hence no 2 same / different
+elements can have the same ID name.
+*/
+
+
+/* PRIORITIES
+CSS
+In line CSS > Internal CSS > External CSS
+
+SPECIFIC
+ID selectors > Class selectors > tag selectors
+*/

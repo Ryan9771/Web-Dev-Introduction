@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Notes</title>
+  <link rel="stylesheet" href="css/html.css">
+  <link rel="icon" href="html.ico">
+</head>
+
+<body>
+  <div class="one">
+    <h1>HTML Basics</h1>
+    <p>The HTML begins with typing "html" in atom and clicking enter. It'll come up with the language, the direction, the charset (the encoding) etc..
+      The title is what you want the title of the webpage to be displayed in the top tab of the website. This is inside the "head" part of the HTML.
+      Besides this the html consists of the <strong>head</strong> and the <strong>body</strong>.
+      <br>
+      <br>
+      Also, to use italics and bold, use the "em" and "strong" tag respectively. Both are closed tags - meaning they have
+      an opening <> and a closing <>. Things like the Horizontal rule (hr) and (br) are open tags so only need one set of <>.
+    </p>
+  </div>
+  <div class="two">
+    <p id="Underline1"><strong>This is the anatomy of a html line:</strong></p>
+    <img src="Images/html_tags.png" alt="html composition">
+  </div>
+  <p>Next, there are other things that can be implemented / added such as images, links and tables. To insert a image, type "img" and click enter.
+    The source will be the source of the image. Eg: if the img is added to the folder, then look at the hierarchy. Eg: images/image.png
+  </p>
+  <p>To add a link, use the anchor key - "a". The "href" will be the link and the text you put in between the anchor brackets is the displayed
+    text. Eg: <a href="https://colorhunt.co/palette/180404" target="_blank">This is a link to the colour pallettes</a>
+  </p>
+  <div class="four">
+    <span id="span1">Writing a table involves writing "table". Each row, write a "tr" and inside, each "td" is a cell. The first row
+      can be the "th", table header. Example:</span>
+    <br>
+
+    <!-- Table -->
+    <table>
+      <tr>
+        <th>Header 1 (th)</th>
+        <th>Header 2 (th)</th>
+      </tr>
+      <tr>
+        <td>td</td>
+        <td>td</td>
+      </tr>
+      <tr>
+        <td>td</td>
+        <td>td</td>
+      </tr>
+    </table>
+
+    <!-- End of table -->
+  </div>
+  <div class="five">
+    <p class="noStyle">The next thing to learn is <strong>forms.</strong>
+      Forms is created by typing forms and pressing enter on atom. It gives an "action" and a "method". <em>Action</em>
+      refers to where the form leads you when you press the submit button. <em>Method</em> refers to what you want the
+      form to do when you press the submit button.
+      <br><br>
+      The form needs a "label" to <em>label</em> the title for that entry. The form also needs an "input" to input things
+      into the form. There are different input types. Eg: "input type="text" / "email" / "submit" etc... The input type <em>submit</em>
+      creates a button. You can even enter "textarea" to create a text field.
+      <br><br>
+      <strong>Here's an example below:</strong>
+    </p>
+    <div class="six">
+      <div class="seven">
+        <form class="" action="" method="post">
+          <span>Subscribe to our newsletter!</span>
+          <br><br>
+          <div class="formTableRow" id="topForm">
+            <label for="">Enter your name:</label>
+            <input class="Enter" type="text" name="" value="">
+          </div>
+          <div class="formTableRow">
+            <label>Enter your email address:</label>
+            <input class="Enter" type="email" name="" value="">
+          </div>
+          <input id="submit" type="submit" name="" value="Subscribe">
+        </form>
+      </div>
+      <img id="leftArrow" src="Images/leftArrow.png" alt="left Arrow">
+    </div>
+  </div>
+  <br>
+  <div class="hr1">
+    <hr>
+  </div>
+  <br><br>
+  <div class="button">
+    <a id="link" href="css.html" target="_blank"><strong>Click here for CSS notes</strong></a>
+  </div>
+  <br><br><br><br><br><br>
+</body>
+
+</html>

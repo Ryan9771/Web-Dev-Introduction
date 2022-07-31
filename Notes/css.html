@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSS Notes</title>
+  <link rel="stylesheet" href="css/css.css">
+  <link rel="icon" href="css.ico">
+</head>
+
+<body>
+  <h1>CSS THINGS</h1>
+
+  <div class="divOne">
+    <p>
+      <ul>
+        <li>The first step to <strong>link</strong> a css stylesheet to a .css document
+            is to use the link line:</li>
+      </ul>
+    </p>
+    <img class="imgOne" src="Images/link.png" alt="link statement">
+    <br>
+    <p>
+      <ul>
+        <li>The CSS sheet is created by making a folder at the same hierarchy as the index.html
+          and inside it a file called "css.css"</li>
+      </ul>
+    </p>
+  </div>
+
+  <div class="divTwo">
+    <p>To use CSS, we first begin with either:</p>
+    <table class="tableOne">
+      <tr>
+        <td class="tdOne"><strong>Tag selector:</strong></td>
+        <td class="tdOne">tag{}</td>
+      </tr>
+      <tr>
+        <td class="tdOne"><strong>Class selector:</strong></td>
+        <td class="tdOne">.class{}</td>
+      </tr>
+      <tr>
+        <td class="tdOne"><strong>ID selector:</strong></td>
+        <td class="tdOne">#id{}</td>
+      </tr>
+    </table>
+    <div class="divThree">
+      <p><strong>To make a class / id tag, write accordingly: Eg:</strong></p>
+      <img class="imgTwo" src="Images/class:ID.png" alt="class n ID">
+    </div>
+    <p><strong>Note:</strong> Multiple tags can have the same class but an ID is unique to 1 specifc tag only. There can also be multiple <em>classes</em> attached to a tag but only <strong>one ID</strong> attached to a tag.
+      <br><br>
+      To have multiple classes attached to a tag: <strong>class="classOne classTwo"</strong>
+   </p>
+  </div>
+
+  <div class="divFour">
+    <div class="divFive">
+      <p>The structure of beginning a CSS code was shown above with the tag / class / ID selectors. Inside the brackets, CSS properties are used to define the layout / properties of the specific tag that is targetted. </p>
+    </div>
+    <p>For example, the CSS for:</p> <h2>Hello World</h2> <span>will be:</span>
+    <div class="divSix">
+      <img class="imgThree" src="Images/h2.png" alt="h2">
+    </div>
+    <br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" target="_blank">Click here for a full list of CSS properties.</a>
+  </div>
+
+  <div class="divSeven">
+    <div class="divEight">
+      <p>In order to space things out from other tags and space text from borders, we alter a few things:
+          <br><br>
+         A <strong>margin</strong> is the space around an tags (box) that pushes it away from other boxes / edges.
+         <br><br>
+         A <strong>padding</strong> is the space between the border of a box and the text / tags inside. For example, the spacing between this text and this box.
+      </p>
+    </div>
+    <img class="imgFour" src="Images/Margins.png" alt="Margin">
+    <p>A <strong>border</strong> also adds on additional spacing.</p>
+    <br>
+    <p>The diagram gives a visual representative the spacing around a tag on the screen. This is called the <strong>box model</strong> of CSS. Altering various values for margins, padding or even border causes the box to become bigger and occupy more space. Margins are also used to space boxes further from other boxes like all these boxes on this page.
+       <br><br>
+       The individual margins and paddings can be altered by writing eg: <strong>margin-bottom: 20px;</strong>. Top, bottom, left, right can be used in this way for margin and padding. Eg: <strong>padding-left: 20px;</strong>
+    </p>
+    <p>
+      The general way to write a border is <strong>border: solid 2px;</strong>. However, in some cases such as the <strong>hr</strong> with the border already defaultly applied, we can change it by writing <strong>border-style: dotted;</strong>. The full list of different border properties, types and styles can be found by typing "<strong>border css mdn</strong>" on to google.
+    </p>
+    <hr class="hrOne">
+    <br>
+    <p>Here is the css for the <strong>hr</strong> above:</p>
+    <br><br><br><br><br><br>
+    <img class="imgFive" src="Images/hr.png" alt="hr">
+  </div>
+
+  <div class="divNine">
+    <div class="divTen">
+      <h3>Default Properties</h3>
+      <p>Almost every CSS property will have a default CSS style applied to it by the <em>browser</em>. For example, the "body" tag has its default margin around it.
+         <br>
+         It is useful to check and manipulate these CSS default styles in certain cases. Eg: if you want to cancel out some spacing between boxes / the body and a box etc...
+        <br>
+        This can be checked by clicking on <strong>inspect</strong> in the browser and clicking the desired line and checking the styles applied to it along with the box diagram as in the previous photo above.
+      </p>
+    </div>
+  </div>
+
+  <div class="divEleven">
+    <h3>Units</h3>
+    <table class="tableTwo">
+      <tr>
+        <td class="tdTwo adjOne"><strong>Ems (em)</strong></td>
+        <td class="tdTwo">It is a scalable unit. It gets bigger as you zoom in on webpages. Hence, it does not mess up the layout of the webpage. (Preferable to always use this)</td>
+      </tr>
+      <tr>
+        <td class="tdTwo"><strong>Pixels (px)</strong></td>
+        <td class="tdTwo">These are based on the pixels on the screen. Hence it does scale / resize when zooming in / out. As a result, zooming in and out makes no difference</td>
+      </tr>
+      <tr>
+        <td class="tdTwo"><strong>Points(pt)</strong></td>
+        <td class="tdTwo">Points are traditionally used in print media (anything that is to be printed on paper, etc.). One point is equal to 1/72 of an inch. Points are much like pixels, in that they are fixed-size units and cannot scale in size.</td>
+      </tr>
+      <tr>
+        <td class="tdTwo"><strong>Percent (%)</strong> </td>
+        <td class="tdTwo">Percentages are exactly like em. They are scalable. However, the only difference is when the text setting is set as smallest and largest, em becomes way smaller and way bigger too abruptly as compared to percetages.</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="divTwelve">
+    <h3>Floating and Display</h3>
+    <p>To make things align side by side each other, we use <strong>float</strong>. To use this, the main div should contain 2 smaller divs. In CSS, one small div should float left and the other float right. It is better to give the main div a definite width so its cleaner.
+     </p>
+     <p>Alternatively, to combine different words with different effects on the same sentence, we can use something called <strong>span</strong>. Using a bunch of "span" will combine the words on the same line. Even images can be inserted and it'll apear next to a span. The reasoning is given below: </p>
+     <p>The <strong>display</strong> of a tag determines the amount of space it occupies. <strong>Block</strong> displays like "p" or "div" are block and hence occupy the entire width of the screen, <strong>preventing</strong> any other inserted tags to appear next to it. <strong>Inline</strong> display like "span" causes it to occupy only the <strong>width</strong> of the tag hence allowing any other inline tags to appear next to it. <strong>"inline-block"</strong> displays are similar to that of inline except it allows the tag to have a modified width if modified in the CSS.  </p>
+     <br>
+     <p><strong>For example,</strong></p>
+     <span class="spanOne">This is</span>
+     <span class="spanOne">what</span>
+     <span class="spanOne">multiple spans</span>
+     <span class="spanOne">look like.</span>
+     <p>To change the display of a tag, we write eg: <strong>"display: inline-block;""</strong> </p>
+  </div>
+
+  <div class="div13">
+    <h3>Positioning</h3>
+    <p>There are different types of poisitioning and its effect. It is very useful for moving tags / divs / boxes / images to be anywhere on the screen.</p>
+    <p>
+      <h4>STATIC</h4>
+      By default a tag's position is static.
+      <h4>Relative Positioning</h4>
+      It moves the tag RELATIVE to what it would've been. It goes with the flow
+      of the body. - This means that once moved, the other tags stay where they are. However, a "ghost" of it occupies its previous space and hence any text put there will wrap around it.
+      <h4>Absolute Positioning</h4>
+      Absolute positioning causes it to move from the parent (the entire body).
+      Hence, using "right" causes it to move FROM the RIGHT of the screen.
+      It does not go with the flow of the webpage. Hence, writing "absolute" causes
+      the tags around it to behave like that tag was not even there.
+      <h4>Fixed Positioning</h4>
+      Fixed position causes the tag / box etc... to remain essentially <strong><em>stuck</em> </strong> to the user's webpage. Hence, scrolling through the webpage will cause the webpage to flow behind that fixed position tag.
+    </p>
+
+    <h3>Controlling Position</h3>
+    <p>To control the position of tags on the screen, put it to any of the position types aboce (preferably absolute) then use either <strong>top, left, right</strong>
+        to control where the position of the tag is. A value of <strong>top: 5em;</strong> will cause the image to move <strong>from the top</strong> by 5em. Similarly, a positive left or right value moves the tag right or left respectively.
+    </p>
+
+    <h3>Children & Parent tags</h3>
+    <p>  Children tags sit on top the parent tags.
+      Eg: a <strong>span</strong> will sit on top of a <strong>h1</strong> which will be on top of a <strong>div</strong>. </p>
+  </div>
+
+<!-- Talk about how to comment too even in html-->
+
+
+</body>
+
+</html>
+
+
+<!--
+IMPORTANT THINGS THAT I HAVE LEARNT IN CSS:
+- to firstly make things float left and right, create a div then inside
+  the div make 2 other divs. All divs should have classes. The main div
+  should have a width. The other 2, just float left and right.
+
+- To control the position of stuff anywhere on the screen, do this:
+    position: absolute;
+    top: Ypx;
+    left: Xpx;
+  The "top" means that its "pushing" from TOP down. Hence, a positive
+  value will displace the tag by Y px. A positive "left" value means its pushing the
+  tag RIGHT by Xpx.
+  Moving this image / tag does not interfere with the tags around it.
+  Hence it will just overlap it.
+
+  STATIC positioning:
+  By default an tags position is STATIC.
+
+  RELATIVE positioning:
+  It moves the tag RELATIVE to what it would've been. It goes with the flow
+  of the body. - This means that once moved, the other tags stay where they are.
+  However, if inserted, it pushes other absolute position boxes out of the way IF they
+  are not assigned a vertical alignment. (Basically absolute box if it doest have "top" and only "left" etc
+  then it'll get pushed out of the way)
+  On the other hand, read what absolute positioning does below:
+
+  ABSOLUTE positioning:
+  -> Absolute positioning causes it to move from the parent (the entire body).
+    Hence, using "right" causes it to move FROM the RIGHT of the screen.
+    It does not go with the flow of the webpage. Hence, writing "absolute" causes
+    the tags around it to behave like that tag was not even there.
+
+  -> Since absolute is defined to move from the parent, if a box is in a div box,
+     using top, left etc.. will move it from the corresponding edges of the box.
+
+  FIXED positioning:
+  -> Fixed means that once in place, though scrolling through the webpage, the boxe
+     will stay exactly where it is.
+
+
+- Children & Parent tags:
+  Children tags sit on top the parent tags.
+  Eg: a <span> will sit on top of a <h1> which will be on top of a <div>
+
+
+- AUTO Margin
+  Putting "margin: 0 auto;"" will cause the top and bottom margin to be 0 but the left and right margin to be centre if the text-align in the parent tag is set to "text-align: centre;"

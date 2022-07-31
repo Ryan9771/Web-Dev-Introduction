@@ -1,0 +1,157 @@
+
+/****************************** TAG SELECTORS **************************/
+body{
+  background-color: #120136;
+}
+
+h1{
+  font-family: Arial;
+  color: #fcbf1e;
+  margin-left: 10px;
+}
+
+p{
+  color: black;
+  width: 85%;
+  font-family: Arial;
+  background-color: #c1a57b;
+  border-radius: 15px;
+  padding: 20px;
+
+}
+
+table{
+  margin-left: 35%;
+  border: solid 2px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,td{
+  border: solid 1px;
+  width: 125px;
+  padding: 5px;
+
+}
+
+th{
+  background-color: #85a392;
+  color: #2c003e;
+}
+
+form{
+  padding: 20px;
+  padding-top: 0
+}
+
+input, label{
+  display: table-cell;
+  margin-bottom: 5px;
+}
+
+label{
+  padding-right: 5px;
+}
+
+hr{
+  width: 50%;
+  border-width: 5px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: orange;
+
+}
+
+
+/***************************** CLASS SELECTORS ****************************/
+.two{
+  background-color: #c1a57b;
+  border-radius: 15px;
+  width: 89%;
+
+}
+
+.four{
+  background-color: #fff3cd;
+  padding: 20px;
+  border-radius: 15px;
+  width: 85%;
+}
+
+.five{
+  width: 89%;
+  font-family: Arial;
+  background-color: #c1a57b;
+  border-radius: 15px;
+  padding-bottom: 125px;
+
+}
+
+.noStyle{
+  color: black;
+  font-family: Arial;
+  padding: 20px;
+  padding-bottom: 0px;
+
+}
+
+.formTableRow{
+  display: table-row;
+
+}
+
+.six{
+  width: 88%;
+  background-color: #c1a57b;
+}
+
+.seven{
+  float: left;
+}
+
+.hr1{
+  position: relative;
+  left: -40px;
+}
+
+.button{
+  position: relative;
+  left: -30px;
+}
+
+
+/***************************** ID SELECTORS ******************************/
+
+
+#Underline1{
+  text-decoration: underline;
+  padding-bottom: 0;
+}
+
+#span1{
+  color: black;
+  font-family: Arial;
+}
+
+
+
+#submit{
+  margin-top: 10px;
+}#link {
+  background-color: #d2c6b2;
+  font-family: Arial;
+  color: black;
+  margin-left: 39%;  padding: 10px;
+  border-radius: 15px;
+}
+
+#leftArrow{
+  float: right;
+  width: 20%;
+  margin-right: 10%;
+  position: relative;
+  top: -50px;
+  left: 20px;
+
+
+}

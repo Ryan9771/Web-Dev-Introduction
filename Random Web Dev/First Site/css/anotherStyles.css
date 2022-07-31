@@ -1,0 +1,17 @@
+p{
+  background: purple;
+  width:300px;
+}
+
+.inline{
+  display: inline;
+}
+
+.go{
+  display: inline-block;
+  width: 50px;
+}
+
+span{
+  background-color: green;
+}

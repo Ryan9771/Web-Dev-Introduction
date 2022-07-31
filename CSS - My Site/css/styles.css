@@ -1,0 +1,205 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+span{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+hr{
+  border-style: dotted;
+  border-color: #EAF6F6;
+  width: 7%;
+  border-width: 7px;
+  border-bottom-style: none;
+}
+
+
+.top-container{
+  background-color: #E4F9F5;
+  margin-bottom: 30px;
+}
+
+.middle-container{
+  width: 70%;
+  margin: auto;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  margin-bottom: 0;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.contact-me{
+  line-height: 2;
+}
+
+.imgOne{
+  position: absolute;
+  right: 20em;
+  top: 1.5em;
+}
+
+.imgTwo{
+  position: absolute;
+}
+
+.imgThree{
+  width: 60%;
+  border-radius: 100%;
+}
+
+.imgFour{
+  float:left;
+  margin-right: 30px;
+}
+
+.imgFive{
+  float: right;
+  margin-left: 30px;
+}
+
+.h2One{
+  margin: 80px auto 50px auto;
+  font-weight: normal;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.profile{
+  width: 30%;
+  margin: 70px auto;
+}
+
+.profileDescription{
+  color: #40514E
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 24px;
+    border: 1px solid #478686;
+    border-radius: 8px;
+    background: #75dcdc;
+    background: -webkit-gradient(linear, left top, left bottom, from(#75dcdc), to(#478686));
+    background: -moz-linear-gradient(top, #75dcdc, #478686);
+    background: linear-gradient(to bottom, #75dcdc, #478686);
+    font: normal normal bold 20px arial;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 30px auto 80px auto;
+}
+.button:hover,
+.button:focus {
+    border: 1px solid #66bfbf;
+    background: #8cffff;
+    background: -webkit-gradient(linear, left top, left bottom, from(#8cffff), to(#55a1a1));
+    background: -moz-linear-gradient(top, #8cffff, #55a1a1);
+    background: linear-gradient(to bottom, #8cffff, #55a1a1);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #478686;
+    background: -webkit-gradient(linear, left top, left bottom, from(#478686), to(#478686));
+    background: -moz-linear-gradient(top, #478686, #478686);
+    background: linear-gradient(to bottom, #478686, #478686);
+}
+
+.getInTouchText{
+  margin-top: 30px;
+  width: 40%;
+  margin: 40px auto;
+}
+
+.footer-link{
+  margin: 0 20px 0 20px;
+  text-decoration: none;
+  color: #11999E;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright{
+  margin-top: 35px;
+  color: #EAF6F6;
+  font-size: 13px;
+}
+
+/*
+CENTERING TAGS
+  In the parent container or body, if you text-align: centre; it centres every element that does not have a
+   width set. If something has a width, to align it centre, you can use -> "margin: 0 auto;"  which puts the
+   top and bottom margin to 0 or whatever you want and the left right being aligned to the centre.
+
+FONTS
+  Serif are with those little branches at the edges of the letter but sans-serif fonts are those with no
+  branches at the end of the letter. Eg: Arial.
+  -> Types of font families:
+    - Serif
+    - Sans-Serif
+    - Monospace (each letter occupies the same space like in coding)
+    - Fantasy (like avatar font)
+    - Cursive (like hand written font)
+
+  -> To change the font, we use "font-family: sans-serif;"
+  -> Using a code like "font-family: verdana, sans-serif;" -> This means that its telling the website to first
+     use the font "verdana" and if its not there, then use sans-serif.
+  -> Web-safe fonts are fonts that have high probability of being rendered by the browser. It is different
+     for different browsers and operating systems.
+
+  -> FONT EMBEDDING
+    These are for using the fonts that may not be there by the browser. Hence, it tells the browser how to use
+    the font that you provide it.
+    - You can do this by using google fonts.
+    - Using the website you select the fonts you want to use then you copy the link href code that is give
+      paste this in the head of the html like the stylesheet.
+    - Then you can carry on using the font "font-family: "Helvetica", serif" -> This is saying use the Helvetica
+      but if it fails to download, use serif.
+
+  -> If the body CSS is font-size: 2em and the h1 you set to 5em then they will both get added up!
+    - em
+    - rem means the root meaning that it does not get affected by any other sizes in the parent tag.
+    - Default font size is  16px. 16px = 100% = 1em
+
+  -> Line-height basically increases the space between whatever is on top of the text and whatever is below it.
+    - It doesn't have units.
+
+  -> CLEAR property prevents from getting wrapped around. Eg: "clear: left;" This makes sure it doesnt wrap around anything on the left
+    clear right means it prevents the paragraph from wrapping around anything on the right.

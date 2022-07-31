@@ -1,0 +1,95 @@
+
+<!--
+
+Using GRID SYSTEM
+<div class="row">
+  <div class="col">
+
+  </div>
+  <div class="col">
+
+  </div>
+
+</div>
+
+This creates rows and columns automatically.
+
+-> In Bootstrap, the width of the screen can be imagined to be divided in 12 parts. Hence, 1 to 12.
+    So writing CLASS="COL-6" will cause the width of the column to be that of half the screen width.
+    1 is the smallest to 12 the largest.
+
+-> COL-MD-6 means that you should have a 6 unit column on any size FROM medium size upwards (ipad/tablet laptop desktop) but anything
+    smaller than the medium size like mobile will take up the FULL 100% width.
+
+-> Just adding COL to each div will just divide according to the screen.
+
+-> For SPECIAL cases Eg: 4 cols occupying 1 row (12/4= col-3) in large but only occupying a third of the screen in medium (12/3= col-4)
+    we can do this:
+    <div class="col-lg-3 col-md-4">
+
+    </div>
+    (ofc add multiple of these inside of a larger div class="row")
+    This makes these rows on the webpage responsive and adjust to the size mentioned according to the user's screen width.
+
+-> You can include stuff like images and stuff in their so that they can rearrange according to the screen size.
+
+-> class CONTAINERS basically allow the webpage to adapt to the screen size.
+    - For example, a class="container"
+      will cause the box to JUMP down to a smaller width after a certain decrease in screen size. Hence it is not smooth
+
+    - A class="container-fluid" will cause the box to occupy 100% of the screen and continuously decrease its width as the screen size decreases.
+    - Container-fluid is useful for webpages. Eg: you can include a large section of images or code in there.
+
+-> CBN is basically a link that once put in the html of the webpage, allows the browser to access that link and get whatever the html requires from it.
+    For example, google fonts, using a custom font, bootstrap, the font awesome icons etc..
+    - Eg: for the font awesome icons, all you have to do is copy the CBN link, then on the website get the code for the specific icon. Then you can
+      put this icon in the text area for eg: a button
+    - The variations in the font awesome displayed can be done by adding the class inside the code. Eg: the 4x size -> add the class "fa-4x"
+
+-> Use the transform property to rotate things. Eg: TRANSFORM: ROTATE(25deg) this rotates whatever by 25deg in the CLOCKWISE direction
+
+-> Note: when making a site, you need to make sure you know what the first thing the user is going to look at. You need to  control whats the first thing
+    they want to look at. Eg: a purpose of a app, a cool fact abt the app etc...
+
+-> Inside the div boxes for the columns, you can alter the space and the space between text by just altering the PADDING of the individual boxes. it will
+    kinda squeeze the letters and make it look neater.
+
+-> When testing new things out like on bootstrap or something, it is better to test it out on websites like codeply before implementing the code onto
+    your webpage since it could get messy and you wouldn't know whether it is working properly or what went wrong.
+
+-> Note: sometimes, as in the case of the carousel indicator as in the bootstrap website, the buttons and indicator will be squished inside the carousel text box
+    This is because of the padding you put on the container outside the carousel. Instead, put the padding on the carousel-item. then the buttons and indicator wouldn't
+      get squished
+
+-> You don't need to memorise things for bootstrap. Eg: you want to make a carousell, you can just read and copy the code and make alterations according to the instructions
+    Eg: the carousel.  You can look at the sample websites on bootstrap to see how they made stuff. Click inspect element and see what is the code for what you want.
+    - Looking at the code for the desired webpage, see the main word that keeps coming up the most and see on bootstrap whether there is a componenet like that that teaches
+      you how to use that main word.
+
+-> Natually, things have a natural stacking order. Meaning whatever is placed below will be below (except for spans etc...) and child elements will be inside parents
+    eg: divs inside divs. As a rule of thumb: html that are written first will be furthest back.
+    - But you can change this stacking property using CSS using the property called "z-index".
+    - The default z-index for all elements / tags is 0. Changing it to 1 will make things appear on top and -1 below.
+    - But if you set everything to -1 for eg, then the stacking order will revert back to the html order since the z index are made in the same heirarchial level.
+    - But things only stack if placed on top of each other. This can be done with positioning.
+    - BOTH elements MUST have a position. Either absolute or relative anything.
+    -NOTE!!: in the tindog case for the title, the reason why the features section moves up to the image when the image is set to absolute it because when it is set to absolute, it is taken out of the flow of the document,
+              so if we pretend that it is not there, the moving up of the features sections is where the features section would have been.
+
+-> MEDIA QUERY
+    - Media query is basically a query whether something is happening or not
+    - STRUCTURE: "@MEDIA <TYPE> <FEATURE>"
+    - @media shows that everything that comes after that word is a media QUERY
+    - the type is the type of media or medium we're selecting on. The code should only be activated if the website is being diaplyed on eg: when its printing
+    - feature -> is the feature that is being judged whether it is true or false. Eg:
+    - " @ media screen (min-width: 900px)"
+    - Hence here screen is the type and min-width shows that IF the screen width is ≥ 900px THEN it will do whatever it is that is in the brackets.
+    - The "max-width" is a useful feature because you can decide how you want your website to be if the screen size is 900px or less. Hence it is useful for making it neat
+        on mobile or ipad.
+    - You can see the screen size of the website / browser by going to inspect in chrome then look at the top right of the screen, you will see the width.
+    - "Media queries are useful when you want to modify your site or app depending on a device's general type (such as print vs.screen) or specific characteristics and parameters (such as screen resolution or browser viewport width).
+
+-> VIEWPORT: is the size of the screen the browser is being displayed on.
+
+
+-->

@@ -1,0 +1,32 @@
+body{
+  background-color: grey;
+  text-align: center;
+}
+
+
+.mainContainer{
+  width: 70%;
+  margin: auto;
+}
+
+h1{
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+  font-size: 8rem;
+  margin: 0.5em auto;
+}
+
+h3{
+  font-family: 'Indie Flower', cursive;
+  color: #4ECCA3;
+  font-size: 2rem;
+}
+
+.imageDiv{
+  display:inline-block;
+
+}
+
+footer{
+  margin-top: 2rem;
+}

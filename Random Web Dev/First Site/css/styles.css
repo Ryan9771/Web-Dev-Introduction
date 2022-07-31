@@ -1,0 +1,42 @@
+
+/*  ********* TAG SELECTORS ******** */
+
+
+
+
+
+
+
+
+h2{
+  font-size: 13px
+}
+
+
+/*  ********* ID SELECTORS ********* */
+#Date_1{
+  font-size: 22px
+}
+
+#gallery-text-left{
+  float:left;
+  width:50%
+}
+
+#gallery-paragraph-1{
+  border-left:8px solid #3CB371;
+  border-radius:4px;
+  padding-left:15px;
+}
+
+#gallery-paragraph-2{
+  border-left:8px solid #3CB371;
+  border-radius:4px;
+  padding-left:15px;
+}
+
+#gallery-text-right{
+  float:right;
+  width:50%
+
+}

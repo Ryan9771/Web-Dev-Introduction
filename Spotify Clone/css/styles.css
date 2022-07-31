@@ -1,0 +1,219 @@
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.container-fluid{
+  padding: 5% 5% 1%;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 800;
+}
+
+h3{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* TITLE */
+
+/* NAVBAR */
+.navbar{
+  background-color: black;
+}
+
+.navbar-brand{
+  color: white;
+  font-weight: 500;
+}
+
+.navbar-toggler{
+  border-style: none;
+}
+
+
+
+/* TITLE SPACE */
+
+
+.titleTitle{
+  font-size: 5rem;
+  width: 80%;
+  margin: auto auto 3%;
+
+}
+
+#title{
+  background-color: #FFCDD2;
+}
+
+.titleButtons{
+  font-family: 'Lato', sans-serif;
+  border-radius: 30px;
+  padding: 0.8% 4%;
+  font-size: 1rem;
+  margin: 5% 1% 2.5%;
+}
+
+.titleSpace{
+  padding: 5% 5% 2.2%;
+}
+
+.titleText{
+  font-size: 0.7rem;
+  font-weight: 700;
+  width: 40%;
+  margin: auto;
+}
+
+
+
+
+/* GET SPOTIFY FREE */
+
+.freeButton{
+  padding: 1% 5%;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 20px auto 50px;
+}
+
+
+.freeTitle{
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 30px;
+
+}
+
+#getSpotifyFree{
+  background-color: #4d6cdb;
+}
+
+
+
+
+
+
+/* ------- PREMIUM FEATURES ------- */
+
+.featureImage{
+  border-radius: 100%;
+  background-color: #cccccc;
+  width: 50%;
+  padding: 5%;
+  margin: 7% 5% 15%;
+}
+
+.featureTitle{
+  font-size: 1.5rem;
+}
+
+#premiumFeatures{
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 7%;
+}
+
+.premiumTitle{
+  font-size: 3.5rem;
+  margin-bottom:7%;
+}
+
+
+
+
+/* ---------CANCEL ANYTIME--------- */
+
+#cancelAnytime{
+  background-color: #f7f7f5;
+  padding-bottom: 5%;
+}
+
+.cancelTitle{
+  margin: 3% auto;
+}
+
+.cancelText{
+  font-size: 1.5rem;
+  font-weight: 100;
+
+}
+
+.onoffswitch {
+    position: relative; width: 90px;
+    margin: auto;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "";
+    padding-left: 10px;
+    background-color: #3AF29C; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 22px; margin: 4px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px;
+}
+
+
+
+
+
+/* FOOTER */
+
+#footer{
+  background-color: black;
+}
+
+.footerText{
+  margin-top: 4%;
+}
+.footer-text{
+  margin: 0.5% 2% 2%;
+  color: #fff;
+}

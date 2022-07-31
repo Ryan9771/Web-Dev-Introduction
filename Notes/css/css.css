@@ -1,0 +1,204 @@
+body{
+  background-color: #120136;
+}
+
+h1{
+  color: #fcbf1e;
+  text-align: center;
+  font-family: Arial;
+}
+
+
+
+
+
+h2{
+  font-family: cursive;
+  text-decoration: underline;
+  border: solid 1px;
+  padding: 3px;
+  width: 11%;
+  background-color: #b4f2e1;
+  color: #6f0000;
+  display: inline-block;
+}
+
+
+
+.divOne{
+  font-family: Arial;
+  background-color: #c1a57b;
+  border-radius: 15px;
+  padding: 10px;
+  width: 75em;
+}
+
+.imgOne{
+  float: right;
+  width: 40%;
+  position: relative;
+  right: 50px;
+  top: -44px;
+}
+
+.divTwo{
+  font-family: Arial;
+  background-color: #d2c6b2;
+  border-radius: 15px;
+  padding: 10px;
+  width: 93%;
+  margin-top: 2%;
+  padding-left: 30px;
+}
+
+.divThree{
+  float: right;
+  position: absolute;
+  top: 250px;
+  right: 170px;
+}
+
+.divFour{
+  font-family: Arial;
+  background-color: #c1a57b;
+  border-radius: 15px;
+  padding: 10px;
+  width: 93%;
+  margin-top: 2%;
+  padding-left: 30px;
+  padding-bottom: 30px;
+
+}
+
+.divFive{
+  width: 92%;
+  text-align: justify;
+}
+
+.divSix{
+  float: right;
+  position: absolute;
+  right: 6.5em;
+  top: 37em;
+}
+
+.divSeven{
+  font-family: Arial;
+  background-color: #d2c6b2;
+  border-radius: 15px;
+  padding: 10px;
+  width: 95%;
+  margin-top: 2%;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.divEight{
+  width: 25em;
+  text-align: justify;
+}
+
+.divNine{
+  font-family: Arial;
+  background-color: #c1a57b;
+  border-radius: 15px;
+  padding: 10px;
+  width: 75em;
+  margin-top: 2%;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.divTen{
+  text-align: justify;
+}
+
+.divEleven{
+  font-family: Arial;
+  background-color: #d2c6b2;
+  border-radius: 15px;
+  padding: 10px;
+  width: 75em;
+  margin-top: 2%;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.divTwelve{
+  font-family: Arial;
+  background-color: #c1a57b;
+  border-radius: 15px;
+  padding: 10px;
+  width: 75em;
+  margin-top: 2%;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.div13{
+  font-family: Arial;
+  background-color: #d2c6b2;
+  border-radius: 15px;
+  padding: 10px;
+  width: 75em;
+  margin-top: 2%;
+  padding-left: 30px;
+  text-align: justify;
+}
+
+.imgThree{
+  width: 45%;
+}
+
+.imgFour{
+  width: 15em;
+  position: absolute;
+  top: 52em;
+  right: 18em;
+}
+
+.imgFive{
+  width:15em;
+  position: absolute;
+  left: 20em;
+  top: 78.4em;
+
+}
+
+.tableOne{
+  margin-left: 20px;
+  border-collapse: collapse;
+}
+
+
+
+.tdOne{
+  border: solid 1px;
+  width: 120px;
+  padding: 5px;
+}
+
+.tdTwo{
+  padding: 1%;
+}
+
+.adjOne{
+  width: 10%;
+}
+
+
+
+.hrOne{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: green;
+  border-width: 0.5em;
+  width: 5em;
+  float: left;
+}
+
+
+
+.spanOne{
+  background-color: grey;
+}
